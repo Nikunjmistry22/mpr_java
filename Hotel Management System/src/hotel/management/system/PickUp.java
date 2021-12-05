@@ -39,6 +39,7 @@ public class PickUp extends JFrame {
 		// conn = Javaconnect.getDBConnection();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(350, 150, 800, 600);
+		setResizable(false);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);

@@ -20,6 +20,7 @@ public class AddDrivers extends JFrame implements ActionListener {
 
 	public AddDrivers() {
 		setBounds(500, 150, 450, 500);
+		setResizable(false);
 		contentPane = new JPanel();
 		setContentPane(contentPane);
 		contentPane.setLayout(null);

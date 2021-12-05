@@ -163,8 +163,10 @@ public class AddEmployee extends JFrame { // Third Frame
 		});
 
 		setSize(450, 600);
+		setResizable(false);
 		setVisible(true);
 		setLocation(500, 150);
+		
 
 	}
 

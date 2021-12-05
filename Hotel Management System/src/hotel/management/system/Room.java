@@ -45,18 +45,19 @@ public class Room extends JFrame {
 	public Room() throws SQLException {
 		//conn = Javaconnect.getDBConnection();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(350, 150, 1100, 600);
+		setBounds(350, 150, 500, 600);
+		setResizable(false);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
                 
-                ImageIcon i1  = new ImageIcon(ClassLoader.getSystemResource("hotel/management/system/icons/eight.jpg"));
+                /*ImageIcon i1  = new ImageIcon(ClassLoader.getSystemResource("hotel/management/system/icons/eight.jpg"));
                 Image i3 = i1.getImage().getScaledInstance(600, 600,Image.SCALE_DEFAULT);
                 ImageIcon i2 = new ImageIcon(i3);
                 JLabel l1 = new JLabel(i2);
                 l1.setBounds(500,0,600,600);
-                add(l1);
+                add(l1);*/
                 
 		
 		table = new JTable();

@@ -45,6 +45,7 @@ public class UpdateCheck extends JFrame {
 		// conn = Javaconnect.getDBConnection();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(500, 150, 400, 500);
+		setResizable(false);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);

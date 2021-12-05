@@ -36,6 +36,7 @@ public class NewCustomer extends JFrame {
 	public NewCustomer() throws SQLException {
 
 		setBounds(350, 150, 850, 550);
+		setResizable(false);
 		contentPane = new JPanel();
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
