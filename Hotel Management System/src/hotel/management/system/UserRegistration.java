@@ -84,7 +84,7 @@ public class UserRegistration extends JFrame {
 
 				try {
 					Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/hms", "root",
-							"12345678");
+							"nikunj22");
 
 					String query = "INSERT INTO login values('" + userName + "','" + password + "')";
 

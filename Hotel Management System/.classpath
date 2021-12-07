@@ -11,5 +11,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Nikunj/Desktop/SE/Mini-Project/rs2/rs2xml.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
